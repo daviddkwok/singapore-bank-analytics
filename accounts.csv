@@ -1,0 +1,16 @@
+account_id,customer_id,account_type,balance
+101,1,Savings,12500
+102,1,Current,3200
+103,2,Savings,45000
+104,2,Investment,80000
+105,3,Savings,29000
+106,4,Current,8500
+107,4,Savings,14000
+108,5,Savings,120000
+109,5,Investment,250000
+110,6,Savings,9800
+111,7,Investment,72000
+112,7,Savings,36000
+113,8,Savings,4200
+114,9,Current,18500
+115,10,Investment,310000
