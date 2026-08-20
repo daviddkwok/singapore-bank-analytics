@@ -12,6 +12,7 @@ The project uses three main tables:
 - `transactions`
 
 The tables are linked as follows:
+
 `customers` → `accounts` → `transactions`
 
 ## SQL Skills Used
@@ -30,6 +31,8 @@ The tables are linked as follows:
 ## Python / pandas Skills Used
 
 - Loading CSV files with `read_csv()`
+- DataFrames
+- Filtering and selecting columns
 - `groupby()`
 - `sum()`, `mean()` and `count()`
 - `agg()`
@@ -47,8 +50,26 @@ Some of the questions explored in this project include:
 - Which transaction categories have the highest transaction value?
 - What is the average transaction amount by account type?
 - Which accounts have the highest number of transactions?
+- Who are the top 5 customers by total transaction value?
+- Which customers have total transaction value above 5,000?
+- What are the 10 largest individual transactions?
 
 SQL and Python/pandas were used to analyse the same simulated banking dataset from different perspectives.
+
+## Visualisations
+I created three charts to summarise some of the main findings from the Python analysis:
+
+### Top 5 Customers by Transaction Value
+
+![Top 5 Customers by Transaction Value](charts/top_customers.png)
+
+### Total Transaction Value by Customer Segment
+
+![Total Transaction Value by Customer Segment](charts/customer_segments.png)
+
+### Average Transaction Value by Account Type
+
+![Average Transaction Value by Account Type](charts/account_type_average.png)
 
 ## Files
 
@@ -57,9 +78,11 @@ SQL and Python/pandas were used to analyse the same simulated banking dataset fr
 - `03_create_view.sql` - creates a joined view for analysis
 - `04_sql_analysis.sql` - contains the SQL analysis queries
 - `05_python_analysis.py` - contains the Python/pandas analysis
+- `06_visualisations.py` - creates the project visualisations
 - `customers.csv` - customer data used in the Python analysis
 - `accounts.csv` - account data used in the Python analysis
 - `transactions.csv` - transaction data used in the Python analysis
+- `charts/` - contains the saved visualisations
 
 ## Tools
 
@@ -68,6 +91,7 @@ SQL and Python/pandas were used to analyse the same simulated banking dataset fr
 - SQL
 - Python
 - pandas
+- Matplotlib
 - VS Code
 - GitHub
 
